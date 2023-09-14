@@ -5,7 +5,7 @@ using TMPro;
 
 public class Puntaje : MonoBehaviour
 {
-    [SerializeField] private int puntajeGlobal;
+    [SerializeField] public int puntajeGlobal;
     [SerializeField] private TextMeshProUGUI textoPuntaje;
 
     private void Start()
